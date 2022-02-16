@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title": "Message",
+  "description": "A message info description",
+  "type": "object",
+  "properties": {
+    "ts": "string",
+    "sender": "string",
+    "messageAttributes": {
+      "type": "object",
+      "properties": {
+        "foo": "string",
+        "bar": "string"
+      }
+    },
+    "sent_from_ip": {"format": "ipv4"},
+    "priority": "number"
+  },
+  "required": ["ts", "sender", "message"],
+  "additionalProperties": false
+}
