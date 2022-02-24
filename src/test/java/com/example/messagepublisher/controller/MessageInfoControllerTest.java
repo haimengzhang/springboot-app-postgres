@@ -1,4 +1,4 @@
-package com.example.postgresql.controller;
+package com.example.messagepublisher.controller;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 @AutoConfigureMockMvc
 @RunWith(MockitoJUnitRunner.class)
-public class MessageControllerTest {
+public class MessageInfoControllerTest {
     @Test
     void test_post_creatMessage_201_SUCCESS() throws Exception {
 

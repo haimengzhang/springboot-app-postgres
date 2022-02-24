@@ -1,4 +1,4 @@
-package com.example.postgresql;
+package com.example.messagepublisher;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
